@@ -4,11 +4,155 @@
     <title>Yenzichun's mystery box</title>
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 </description>
-    <link>http://yenzichun.github.io//blog//</link>
-    <atom:link href="http://yenzichun.github.io//blog//feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 17 Sep 2016 01:31:05 +0800</pubDate>
-    <lastBuildDate>Sat, 17 Sep 2016 01:31:05 +0800</lastBuildDate>
+    <link>http://yenzichun.github.io//</link>
+    <atom:link href="http://yenzichun.github.io//feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Sat, 17 Sep 2016 02:23:40 +0800</pubDate>
+    <lastBuildDate>Sat, 17 Sep 2016 02:23:40 +0800</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Second Post</title>
+        <description>&lt;p&gt;Your markdown here!&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/59373967/jekyll/2016-09-17-second-post/unnamed-chunk-1-1.png&quot; alt=&quot;plot of chunk unnamed-chunk-1&quot; /&gt;&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;options&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;digits&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;m&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cat&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;hello world!&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;## hello world!&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;set.seed&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;123&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;x&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;rnorm&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;40&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;+10&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-text&quot; data-lang=&quot;text&quot;&gt;##  [1]  9.44  9.77 11.56 10.07 10.13 11.72 10.46  8.73  9.31  9.55 11.22
+## [12] 10.36 10.40 10.11  9.44 11.79 10.50  8.03 10.70  9.53  8.93  9.78
+## [23]  8.97  9.27  9.37  8.31 10.84 10.15  8.86 11.25 10.43  9.70 10.90
+## [34] 10.88 10.82 10.69 10.55  9.94  9.69  9.62&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;knitr&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;::&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;kable&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;head&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mtcars&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th style=&quot;text-align: left&quot;&gt; &lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;mpg&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;cyl&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;disp&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;hp&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;drat&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;wt&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;qsec&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;vs&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;am&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;gear&lt;/th&gt;
+      &lt;th style=&quot;text-align: right&quot;&gt;carb&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Mazda RX4&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;21.0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;160&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;110&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.90&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2.62&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;16.5&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Mazda RX4 Wag&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;21.0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;160&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;110&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.90&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2.88&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;17.0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;4&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Datsun 710&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;22.8&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;108&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;93&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.85&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2.32&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;18.6&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;4&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Hornet 4 Drive&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;21.4&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;258&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;110&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.08&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.21&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;19.4&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Hornet Sportabout&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;18.7&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;8&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;360&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;175&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.15&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.44&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;17.0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td style=&quot;text-align: left&quot;&gt;Valiant&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;18.1&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;6&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;225&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;105&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;2.76&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3.46&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;20.2&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;0&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;3&lt;/td&gt;
+      &lt;td style=&quot;text-align: right&quot;&gt;1&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-r&quot; data-lang=&quot;r&quot;&gt;&lt;span class=&quot;n&quot;&gt;par&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;mar&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;w&quot;&gt; &lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;c&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;0.1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;&lt;span class=&quot;w&quot;&gt;
+&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;plot&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;cars&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;pch&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;m&quot;&gt;19&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;col&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;red&quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://dl.dropboxusercontent.com/u/59373967/jekyll/2016-09-17-second-post/unnamed-chunk-1-2.png&quot; alt=&quot;plot of chunk unnamed-chunk-1&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sat, 17 Sep 2016 02:23:39 +0800</pubDate>
+        <link>http://yenzichun.github.io//2016/09/second-post.html</link>
+        <guid isPermaLink="true">http://yenzichun.github.io//2016/09/second-post.html</guid>
+        
+        <category>example1</category>
+        
+        <category>example2</category>
+        
+        
+      </item>
     
       <item>
         <title>My first blog post!</title>
@@ -22,8 +166,8 @@
 
 </description>
         <pubDate>Sat, 17 Sep 2016 01:29:49 +0800</pubDate>
-        <link>http://yenzichun.github.io//blog//2016/09/my-first-blog-post.html</link>
-        <guid isPermaLink="true">http://yenzichun.github.io//blog//2016/09/my-first-blog-post.html</guid>
+        <link>http://yenzichun.github.io//2016/09/my-first-blog-post.html</link>
+        <guid isPermaLink="true">http://yenzichun.github.io//2016/09/my-first-blog-post.html</guid>
         
         <category>example1</category>
         
@@ -50,8 +194,8 @@
 
 </description>
         <pubDate>Sun, 28 Sep 2014 07:16:53 +0800</pubDate>
-        <link>http://yenzichun.github.io//blog//2014/09/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://yenzichun.github.io//blog//2014/09/welcome-to-jekyll.html</guid>
+        <link>http://yenzichun.github.io//2014/09/welcome-to-jekyll.html</link>
+        <guid isPermaLink="true">http://yenzichun.github.io//2014/09/welcome-to-jekyll.html</guid>
         
         
         <category>jekyll</category>
@@ -269,8 +413,8 @@
 &lt;/div&gt;
 </description>
         <pubDate>Sun, 28 Sep 2014 00:00:00 +0800</pubDate>
-        <link>http://yenzichun.github.io//blog//2014/09/jekyll-with-knitr.html</link>
-        <guid isPermaLink="true">http://yenzichun.github.io//blog//2014/09/jekyll-with-knitr.html</guid>
+        <link>http://yenzichun.github.io//2014/09/jekyll-with-knitr.html</link>
+        <guid isPermaLink="true">http://yenzichun.github.io//2014/09/jekyll-with-knitr.html</guid>
         
         <category>knitr</category>
         
