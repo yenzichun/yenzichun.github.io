@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# Site settings\ntitle: Yenzichun's mystery box\nemail: yenping074@gmail.com\ndescription: > # this means to ignore newlines until \"baseurl:\"\n  Write an awesome description for your new site here. You can edit this\n  line in _config.yml. It will appear in your document head meta (for\n  Google search results) and in your feed.xml site description.\nbaseurl: \"/blog/\" # the subpath of your site, e.g. /blog/\nurl: \"http://yenzichun.github.io/\" # the base hostname & protocol for your site\n#twitter_username: jekyllrb\ngithub_username:  yenzichun\npermalink: /:year/:month/:title.html\n\n# Build settings\nmarkdown: kramdown\n",
+    "created" : 1474043166286.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1082160001",
+    "id" : "68CAF4EE",
+    "lastKnownWriteTime" : 1474046866,
+    "last_content_update" : 1474046866558,
+    "path" : "C:/Github/knitr-jekyll-gh-pages/_config.yml",
+    "project_path" : "_config.yml",
+    "properties" : {
+    },
+    "relative_order" : 3,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "yaml"
+}

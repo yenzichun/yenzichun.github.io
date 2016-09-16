@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "---\nlayout: post\ntitle:  My first blog post!\ndate: \"`r Sys.time()`\"\npublished: true\ntags: [example1, example2]\n---\n\nYour markdown here!\n第一篇!!!\n測試一下\n\n```{r}\nplot(1:10)\n```\n\n",
+    "created" : 1474042724029.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "910664843",
+    "id" : "E3F980F2",
+    "lastKnownWriteTime" : 1474045344,
+    "last_content_update" : 1474045344727,
+    "path" : "C:/Github/knitr-jekyll-gh-pages/_source/my-first-blog-post/2016-09-17-my-first-blog-post.Rmd",
+    "project_path" : "_source/my-first-blog-post/2016-09-17-my-first-blog-post.Rmd",
+    "properties" : {
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_markdown"
+}

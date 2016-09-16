@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "### r markdown jekyll blogging\n# ref: https://www.r-bloggers.com/blogging-with-rmarkdown-knitr-and-jekyll/\ninstall.packages(c(\"knitr\", \"servr\", \"devtools\"))\n#devtools::install_github(\"hadley/lubridate\")         # brocks reqs dev version\ndevtools::install_github(\"brendan-r/brocks\")\n\n#如遇到無法安裝時 關掉防毒軟體再試一次即可\n\n\n\n### 安裝jekyll on windows\n# ref:http://jekyll-windows.juthilo.com/1-ruby-and-devkit/\n\n# 安裝Ruby 2.3.1(x64)\n# 安裝devkit (DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe) (C:\\RubyDevKit\\)\n# cmd >> cd C:\\RubyDevKit\\ >> ruby dk.rb init >> ruby dk.rb install\n# install jeykll gem\n# cmd >> gem install jekyll\n\n### usage\nlibrary(brocks)\n\nnew_post(\"My first blog post!\")\n\n\n\n### publish on github\n# download github for windows\n\n\n\n\n",
+    "created" : 1474042394074.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "422534807",
+    "id" : "1BF79EDF",
+    "lastKnownWriteTime" : 1474044620,
+    "last_content_update" : 1474044620664,
+    "path" : "C:/R_workspace/knitr_jeykll.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
