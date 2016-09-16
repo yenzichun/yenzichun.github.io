@@ -14,6 +14,4 @@ permalink: /:year/:month/:title.html
 # Build settings
 markdown: kramdown
 comments: true
-
-output:
-  mathjax: default
+mathjax: true

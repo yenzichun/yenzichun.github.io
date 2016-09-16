@@ -10,11 +10,12 @@
     <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
 ">
 
+
     <link rel="stylesheet" href="/css/main.css">
     <link rel="canonical" href="http://yenzichun.github.io//2014/09/jekyll-with-knitr.html">
 </head>
 
-
+ 
   <body>
 
     <header class="site-header">
@@ -60,6 +61,9 @@
     <h1 class="post-title">Serve Jekyll Websites with servr and knitr</h1>
     <p class="post-meta">Sep 28, 2014</p>
   </header>
+
+   <script type="text/javascript" src="//cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+    
 
   <article class="post-content">
     <p>The R package <a href="https://github.com/yihui/servr"><strong>servr</strong></a> can be used to set up an HTTP server to serve files under a directory. Since <strong>servr</strong> v0.2, it has added a function <code class="highlighter-rouge">servr::jekyll()</code> specifically designed for websites based on Jekyll and R Markdown. The main features of this function are:</p>

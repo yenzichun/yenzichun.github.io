@@ -1,14 +1,14 @@
 {
     "collab_server" : "",
-    "contents" : "---\nlayout: post\ntitle:  Second Post\ndate: \"`r Sys.time()`\"\npublished: true\ntags: [example1, example2]\n---\n\nYour markdown here!\n\n```{r}\nplot(1:10)\n\noptions(digits = 3)\ncat(\"hello world!\")\n\nset.seed(123)\n(x=rnorm(40)+10)\n\nknitr::kable(head(mtcars))\n\npar(mar = c(4,4,0.1,0.1))\nplot(cars,pch=19,col=\"red\")\n\n$\\sum_{i=0}^n i^2 = \\frac{(n^2+n)(2n+1)}{6}$\n```\n",
+    "contents" : "---\nlayout: post\ntitle:  Second Post\ndate: \"`r Sys.time()`\"\npublished: true\ntags: [example1, example2]\n---\n\nYour markdown here!\n\n$$ \\alpha $$\n\n$$\\sum_{i=0}^n i^2 = \\frac{(n^2+n)(2n+1)}{6}$$\n\n\n```{r}\nplot(1:10)\n\noptions(digits = 3)\ncat(\"hello world!\")\n\nset.seed(123)\n(x=rnorm(40)+10)\n\nknitr::kable(head(mtcars))\n\npar(mar = c(4,4,0.1,0.1))\nplot(cars,pch=19,col=\"red\")\n\ncat(\"hahaha\")\n\n\n\n```\n",
     "created" : 1474049154035.000,
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "2846773341",
+    "hash" : "2848812806",
     "id" : "48D8CB42",
-    "lastKnownWriteTime" : 1474054952,
-    "last_content_update" : 1474054952505,
+    "lastKnownWriteTime" : 1474060288,
+    "last_content_update" : 1474060288562,
     "path" : "C:/Github/yenzichun.github.io/_source/second-post/2016-09-17-second-post.Rmd",
     "project_path" : "_source/second-post/2016-09-17-second-post.Rmd",
     "properties" : {

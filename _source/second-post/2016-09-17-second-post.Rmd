@@ -8,6 +8,11 @@ tags: [example1, example2]
 
 Your markdown here!
 
+$$ \alpha $$
+
+$$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$$
+
+
 ```{r}
 plot(1:10)
 
@@ -22,5 +27,8 @@ knitr::kable(head(mtcars))
 par(mar = c(4,4,0.1,0.1))
 plot(cars,pch=19,col="red")
 
-$\sum_{i=0}^n i^2 = \frac{(n^2+n)(2n+1)}{6}$
+cat("hahaha")
+
+
+
 ```
