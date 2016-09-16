@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Second Post
-date: "2016-09-17 02:23:39"
+date: "2016-09-17 03:34:15"
 published: true
 tags: [example1, example2]
 ---
@@ -67,3 +67,13 @@ plot(cars,pch=19,col="red")
 {% endhighlight %}
 
 ![plot of chunk unnamed-chunk-1](https://dl.dropboxusercontent.com/u/59373967/jekyll/2016-09-17-second-post/unnamed-chunk-1-2.png)
+
+{% highlight r %}
+withMathJax(helpText('Dynamic output 1:  $$\\alpha^2$$'))
+{% endhighlight %}
+
+
+
+{% highlight text %}
+## Error in eval(expr, envir, enclos): 沒有這個函數 "withMathJax"
+{% endhighlight %}
