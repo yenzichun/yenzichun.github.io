@@ -21,4 +21,6 @@ knitr::kable(head(mtcars))
 
 par(mar = c(4,4,0.1,0.1))
 plot(cars,pch=19,col="red")
+
+withMathJax(helpText('Dynamic output 1:  $$\\alpha^2$$'))
 ```
