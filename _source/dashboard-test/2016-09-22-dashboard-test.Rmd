@@ -2,6 +2,7 @@
 layout: post
 title:  dashboard test
 date: "`r Sys.time()`"
+runtime: shiny
 published: true
 tags: [example1, example2]
 output:

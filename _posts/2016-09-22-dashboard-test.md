@@ -1,7 +1,8 @@
 ---
 layout: post
 title:  dashboard test
-date: "2016-09-22 23:21:24"
+date: "2016-09-22 23:29:57"
+runtime: shiny
 published: true
 tags: [example1, example2]
 output:
