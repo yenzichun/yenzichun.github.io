@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  dashboard test
-date: "2016-09-22 23:03:41"
+date: "2016-09-22 23:21:24"
 published: true
 tags: [example1, example2]
 output:
@@ -12,6 +12,18 @@ output:
 
 
 
+{% highlight text %}
+## Error in loadNamespace(name): there is no package called 'webshot'
+{% endhighlight %}
+
+
+{% highlight text %}
+## Error in loadNamespace(name): there is no package called 'webshot'
+{% endhighlight %}
+
+
+
+<!--
 Column {.tabset .tabset-fade}
 ---
 
@@ -98,3 +110,4 @@ highchart() %>%
 {% highlight text %}
 ## Error in loadNamespace(name): there is no package called 'webshot'
 {% endhighlight %}
+-->
