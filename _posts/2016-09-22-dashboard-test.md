@@ -1,8 +1,7 @@
 ---
 layout: post
 title:  dashboard test
-date: "2016-09-22 23:29:57"
-runtime: shiny
+date: "2016-09-23 06:07:24"
 published: true
 tags: [example1, example2]
 output:
@@ -13,18 +12,6 @@ output:
 
 
 
-{% highlight text %}
-## Error in loadNamespace(name): there is no package called 'webshot'
-{% endhighlight %}
-
-
-{% highlight text %}
-## Error in loadNamespace(name): there is no package called 'webshot'
-{% endhighlight %}
-
-
-
-<!--
 Column {.tabset .tabset-fade}
 ---
 
@@ -67,6 +54,9 @@ highchart() %>%
 {% highlight text %}
 ## Error in loadNamespace(name): there is no package called 'webshot'
 {% endhighlight %}
+<!--
+<p><iframe src="http://timelyportfolio.github.io/buildingwidgets/week42/example01.html" width="650" height="650"></iframe></p>
+-->
 
 ### Chart B
 
@@ -111,4 +101,3 @@ highchart() %>%
 {% highlight text %}
 ## Error in loadNamespace(name): there is no package called 'webshot'
 {% endhighlight %}
--->

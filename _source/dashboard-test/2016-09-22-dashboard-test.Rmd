@@ -2,7 +2,6 @@
 layout: post
 title:  dashboard test
 date: "`r Sys.time()`"
-runtime: shiny
 published: true
 tags: [example1, example2]
 output:
@@ -24,38 +23,7 @@ load(file = "C:/R_workspace/ems_city_group_data.rda")
 
 
 ```
-```{r, echo = FALSE}
-shinyApp(
-  
-  ui = fluidPage(
-    selectInput("region", "Region:", 
-                choices = colnames(WorldPhones)),
-    plotOutput("phonePlot")
-  ),
-  
-  server = function(input, output) {
-    output$phonePlot <- renderPlot({
-      barplot(WorldPhones[,input$region]*1000, 
-              ylab = "Number of Telephones", xlab = "Year")
-    })
-  },
-  
-  options = list(height = 500)
-)
-```
 
-```{r, echo = FALSE}
-shinyAppDir(
-  system.file("examples/06_tabsets", package="shiny"),
-  options=list(
-    width="100%", height=700
-  )
-)
-```
-
-
-
-<!--
 Column {.tabset .tabset-fade}
 ---
 
@@ -96,7 +64,11 @@ highchart() %>%
   hc_add_series(name="2008",data = l2$count) %>%
   hc_add_series(name="2007",data = l1$count)
 
+
 ```
+<!--
+<p><iframe src="http://timelyportfolio.github.io/buildingwidgets/week42/example01.html" width="650" height="650"></iframe></p>
+-->
 
 ### Chart B
 
@@ -135,4 +107,3 @@ highchart() %>%
   hc_add_series(name=citylist[21],data = y$彰化縣) %>%
   hc_add_series(name=citylist[22],data = y$澎湖縣)
 ```
--->
