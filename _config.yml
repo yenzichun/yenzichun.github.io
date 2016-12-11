@@ -1,16 +1,15 @@
-permalink: /posts/:year/:month/:day/:title
-markdown: kramdown
-repository: ChingChuan-Chen/ChingChuan-Chen.github.io
-highlighter: rouge
+# Site settings
+title: Yenzichun's mystery box
+email: yenping074@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  You know less than you thought, and your memory is horrible.
+#baseurl: "/blog/" # the subpath of your site, e.g. /blog/
+url: "http://yenzichun.github.io/" # the base hostname & protocol for your site
+#twitter_username: jekyllrb
+github_username:  yenzichun
+permalink: /:year/:month/:title.html
 
-kramdown:
-  input: GFM
-  auto_ids: true
-  footnote_nr: 1
-  enable_coderay: true
-  hard_wrap: false
- 
-gems:
-  - jekyll-paginate
-  - jekyll-gist
-  - jekyll-github-metadata
+# Build settings
+markdown: kramdown
+comments: true
+mathjax: true
